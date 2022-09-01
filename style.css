@@ -1,18 +1,43 @@
 .header {
     display: flex;
     justify-content: space-between;
+    background-color: #1F2937;
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 800;
 }
-.links ul{
+
+.links ul {
     display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
+    font-size: 18px;
+    font-weight: 400;
+    color: #E5E7EB;
 }
+
 .body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #1F2937;
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 800;
 }
+
+.body p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #E5E7EB;
+}
+
+.body button {
+    background-color: #3882F6;
+    color: #f9faf8;
+}
+
 
 .info {
     display: flex;
@@ -20,6 +45,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .container {
     display: flex;
     justify-content: center;
@@ -30,22 +56,43 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #E5E7EB;
+    color: #1F2937;
+}
+
+.quote1 {
+    font-size: 24px;
+    font-style: italic;
+    margin-bottom: 0;
 }
 
 .name {
+    margin-top: 0;
     align-self: flex-end;
 }
 
-.bottom .container2{
+.bottom .container2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #3882F6;
+    color:#E5E7EB ;
 }
+
+span {
+    font-weight: bold;
+    font-size: 18px;
+}
+
 .bottom-right button {
-margin: 0;
+    margin: 0;
+    background-color: #3882F6;
+    color: #f9faf8;
 }
 
 .footer {
     margin-top: auto;
     text-align: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
 }
