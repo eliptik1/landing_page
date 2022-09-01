@@ -1,3 +1,7 @@
+* {
+    font-family: roboto, sans-serif;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -28,6 +32,7 @@
     font-size: 24px;
     font-weight: 800;
     padding: 0 150px 60px 150px;
+    gap: 20px;
 }
 
 .left h1,
@@ -36,14 +41,20 @@
 }
 
 .right {
+    width:350px;
+    height: 200px;
+    margin: 0;
+    background-color: gray;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.left,
-.right {
+.left {
     flex: 1;
+}
+.left, .right {
+    flex-shrink: 0;
 }
 
 .body p {
