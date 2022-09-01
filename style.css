@@ -1,0 +1,51 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.links ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    align-self: flex-end;
+}
+
+.bottom .container2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottom-right button {
+margin: 0;
+}
+
+.footer {
+    margin-top: auto;
+    text-align: center;
+}
