@@ -5,6 +5,7 @@
     color: #f9faf8;
     font-size: 24px;
     font-weight: 800;
+    padding: 30px 150px;
 }
 
 .links ul {
@@ -15,6 +16,7 @@
     font-size: 18px;
     font-weight: 400;
     color: #E5E7EB;
+    gap: 20px;
 }
 
 .body {
@@ -25,6 +27,19 @@
     color: #f9faf8;
     font-size: 24px;
     font-weight: 800;
+    padding: 0 150px 60px 150px;
+}
+.left h1, .left p {
+    margin: 0;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left, .right {
+    flex: 1;
 }
 
 .body p {
@@ -58,6 +73,7 @@
     align-items: center;
     background-color: #E5E7EB;
     color: #1F2937;
+    padding: 80px 200px;
 }
 
 .quote1 {
@@ -77,6 +93,8 @@
     align-items: center;
     background-color: #3882F6;
     color:#E5E7EB ;
+    padding: 20px 60px;
+    margin: 60px 120px;
 }
 
 span {
@@ -95,4 +113,5 @@ span {
     text-align: center;
     background-color: #1F2937;
     color: #E5E7EB;
+    padding: 12px;
 }
