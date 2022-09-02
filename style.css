@@ -163,7 +163,8 @@
     align-items: center;
     background-color: #E5E7EB;
     color: #1F2937;
-    padding: 80px 200px;
+    padding: 80px 350px;
+
 }
 
 .quote1 {
@@ -171,6 +172,8 @@
     font-style: italic;
     font-weight: 500;
     margin-bottom: 0;
+    max-width: 750px;
+    min-width: 180px;
     color: rgb(79, 79, 79);
 }
 
