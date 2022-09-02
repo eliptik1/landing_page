@@ -9,7 +9,7 @@
     color: #f9faf8;
     font-size: 24px;
     font-weight: 800;
-    padding: 30px 150px 80px;
+    padding: 30px 150px 60px;
 }
 
 .links ul {
@@ -41,8 +41,8 @@
 }
 
 .right {
-    width:350px;
-    height: 200px;
+    width:450px;
+    height: 300px;
     font-size: 18px;
     margin: 0;
     border-radius: 20px;
@@ -105,14 +105,51 @@
     align-items: center;
 }
 
-.image {
+.image1 {
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-    width: 140px;
-    height: 140px;
+    width: 200px;
+    height: 200px;
     border: 3px solid #3882F6;
     border-radius: 10px;
     margin: 0;
+    background-image: url('images/clownfish');
+    background-size: cover;
+    background-position: center;
 }
+.image2 {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    width: 200px;
+    height: 200px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    margin: 0;
+    background-image: url('images/jellyfish');
+    background-size: cover;
+    background-position: center;
+}
+.image3 {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    width: 200px;
+    height: 200px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    margin: 0;
+    background-image: url('images/turtle');
+    background-size: cover;
+    background-position: center;
+}
+.image4 {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    width: 200px;
+    height: 200px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    margin: 0;
+    background-image: url('images/shark');
+    background-size:cover;
+    background-position: center;
+}
+
 
 .quote {
     display: flex;
