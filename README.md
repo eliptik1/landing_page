@@ -19,7 +19,7 @@ This is my first basic landing page project created using HTML and CSS. It's a s
 Check out the live demo: [Basic Landing Page Demo](https://eliptik1.github.io/landing_page/)
 
 ## Screenshots
-(./images/landing-page.png)
+![](./images/landing-page.png)
 
 ## License
 
